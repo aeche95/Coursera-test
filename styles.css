@@ -1,0 +1,24 @@
+﻿body
+{
+   
+
+} 
+h1
+{
+    font-size:175%;
+}
+
+h3
+{
+    font-size: 125%;
+}
+
+p
+{
+    background-color: gray;
+}
+
+p, h3
+{
+    border: 1px, solid, black;
+}
