@@ -1,15 +1,13 @@
-*
-{
+* {
     box-sizing: border-box;
 }
 
-body
-{
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   margin-right: 0px;
-} 
-h1
-{
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 0px;
+}
+
+h1 {
     font-size: 175%;
     text-align: center;
 }
@@ -28,15 +26,13 @@ h3 {
     border: 1px solid black;
 }
 
-p
-{
+p {
     padding: 10px;
     margin: 0px;
     clear: right;
 }
 
-.inner
-{
+.inner {
     border: 1px solid black;
     background-color: gray;
     height: 360px;
@@ -49,51 +45,41 @@ p
     padding: 10px;
 }
 
-.chicken
-{
+.chicken {
     background-color: pink;
 }
 
-.beef
-{
+.beef {
     background-color: red;
     color: white;
 }
 
-.sushi
-{
+.sushi {
     background-color: yellow;
 }
 
 
-@media (min-width:768px) and (max-width: 991px)
-{
-    .item
-    {
+@media (min-width:768px) and (max-width: 991px) {
+    .item {
         width: 50%;
     }
 
-    div.third
-    {
+    div.third {
         width: 100%;
     }
 
-    div.third .inner
-    {
-        height: 150px;
-    }
+        div.third .inner {
+            height: 150px;
+        }
 }
 
-@media (max-width: 767px)
-{
-    .item
-    {
+@media (max-width: 767px) {
+    .item {
         width: 100%;
         margin-bottom: 15px;
     }
-    .inner
-    {
+
+    .inner {
         height: 300px;
     }
- 
 }
